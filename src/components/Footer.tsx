@@ -14,12 +14,10 @@ const Footer = () => {
             <span className="logo-text">RailDevHub</span>
           </div>
           <p className="footer-description">
-            A specialized team of AI experts combining the power of AI and
-            software to build amazing systems and tools.
-          </p>
-          <p className="footer-keywords">
-            Development, Operations, Performance, Modern Design, and Quality
-            Products.
+            This website was created as a practice project and internal reference for our development team. 
+            The design and layout are heavily inspired by the <strong>https://raildevhub.pia-team.com/</strong>, to which all 
+            original rights belong. This is an unofficial, non-commercial site created purely for learning 
+            purposes only.
           </p>
         </div>
 
