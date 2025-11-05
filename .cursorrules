@@ -1,0 +1,57 @@
+# RailHub Page - Project Context
+
+## Project Overview
+
+This is a React + TypeScript + Vite project called "railhubpage". It's a modern web application built with React 19 and TypeScript.
+
+## Tech Stack
+
+- **Framework**: React 19.1.1
+- **Language**: TypeScript 5.9.3
+- **Build Tool**: Vite 7.1.7
+- **Styling**: CSS (App.css, index.css)
+- **Linting**: ESLint with TypeScript support
+
+## Project Structure
+
+```
+railhubpage/
+├── src/
+│   ├── App.tsx          # Main application component
+│   ├── App.css          # Application styles
+│   ├── main.tsx         # Application entry point
+│   ├── index.css        # Global styles
+│   └── assets/          # Static assets (images, etc.)
+├── public/              # Public static files
+├── index.html           # HTML entry point
+└── vite.config.ts       # Vite configuration
+```
+
+## Coding Standards
+
+- Use TypeScript for all new files
+- Follow React best practices and hooks patterns
+- Use functional components (no class components)
+- Maintain clean, readable code with proper TypeScript types
+- Follow existing code style and formatting
+- Use meaningful variable and function names
+
+## Development Guidelines
+
+- Use `npm run dev` to start the development server
+- Use `npm run build` to build for production
+- Use `npm run lint` to check code quality
+- All components should be in TypeScript (.tsx for React components)
+- Import styles at the component level
+- Use React 19 features and patterns
+
+## Important Notes
+
+- The project uses React StrictMode for development
+- Vite handles hot module replacement (HMR)
+- Ensure all TypeScript types are properly defined
+- Keep components modular and reusable when possible
+
+Proje yapısı:
+
+Proje Bağlamı ve Tasarım Felsefesi (RailDevHub)Bu proje, RailDevHub adlı teknoloji şirketinin kurumsal statik web sitesinin inşasıdır. Sitenin genel tonu modern, güvenilir ve teknoloji odaklıdır.1. Genel Tasarım ve AtmosferRenk Paleti: Site, derin lacivert/koyu gri tonlarından oluşan bir karanlık tema (dark mode) üzerine kuruludur. Bu, profesyonel bir atmosfer yaratır.Vurgu: Mavi, temel eylem (CTA) butonu ve vurgu rengidir. Kırmızı ise ikinci bir vurgu rengi olarak uyarılar, yeni özellikler veya özel etiketler için kullanılır.Tipografi: Başlıklar büyük, kalın ve dikkat çekicidir. İçerik, uzun okumayı kolaylaştıran sade ve modern bir sans-serif fontuyla yazılmıştır.Bileşenler: İçerik, belirgin kenarlıklara ve hafif gölgelere sahip, koyu arka plan üzerindeki daha açık renkli "kartlar" (cards) içinde sunulur.2. Sayfa Akışı ve Amacı (Site Mimarisi)Site, aşağıdaki temel sayfaları içerir ve her biri belirli bir kurumsal amaca hizmet eder:Sayfa AdıAmacıİçerik ÖzetiHome (Ana Sayfa)Şirketin gücünü, değerlerini ve temel tekliflerini hızlıca sunmak.Büyük bir vizyon ifadesi (Hero), temel istatistikler, Kurumsal Değerler, AR-GE çalışmaları ("What We're Cooking") ve kullanılan ana teknoloji yığını.Expertise (Uzmanlık Alanları)Şirketin teknik yetkinliklerini detaylandırmak."Yapay Zeka" ve "Yazılım Mühendisliği" ana başlıklarında, alt kırılımlar (LLM, AI Agents, Microservices, PostgreSQL, Kubernetes vb.) kartlar halinde sunulur.Projects (Projeler)Başarılı ürünleri ve çözüm yaklaşımlarını örneklemek.Büyük ve etkili iki ana proje (RayNext ve RayData) detaylı olarak tanıtılır. Projelerin teknoloji yığınları ve müşteri üzerindeki etkileri (Project Impact) vurgulanır.Stories (Hikayeler)Başarılı projelerin arka planındaki süreci ve gelişimi anlatmak.RayNext ve RayData'nın hikayeleri, kronolojik gelişimleri ve başarı faktörleri anlatılır. Bu, duygusal bağ kurmayı ve güven inşa etmeyi hedefler.About (Hakkımızda)Kurumsal kimliği, geçmişi ve vizyonu aktarmak.Şirketin Hikayesi, Misyonu, Ekip yapısı, Temel Değerler ve Gelecek vizyonu yer alır. Rakamlarla (10+, 15+) ekibin büyüklüğü ve deneyimi gösterilir.3. Paylaşımlı BileşenlerHeader (Navigasyon): Tüm sayfaların üstünde sabit duran, temiz ve minimalist bir menü çubuğudur. Tüm ana sayfalara bağlantı içerir.Footer (Alt Bilgi): Tüm sayfalarda aynı olan, 4 sütunlu kapsamlı bir alt bilgi alanıdır. Şirket özeti, hızlı bağlantılar, kullanılan ana teknolojiler ve telif hakkı bilgisini içerir.CTA Alanları: Her sayfa, kullanıcının bir sonraki adıma geçmesini sağlamak için güçlü bir Harekete Geçirici Çağrı (Call to Action) bölümü ile biter (Örn: "Projelerimizle ilgileniyor musunuz?"). Bu alanlar genellikle göz alıcı mavi renkte arka plana sahiptir.4. İçerik ve SunumTüm içerik modülerdir. Başlıklar, alt başlıklar, kısa maddeler (bullet points) ve güçlü görseller (şimdilik placeholder olarak düşünülmeli) kullanılarak sunulur.Amaç, büyük miktarda bilgiyi sindirilebilir ve taranabilir kartlar ve listeler halinde sunmaktır.
