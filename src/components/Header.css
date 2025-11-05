@@ -5,13 +5,6 @@
   background: var(--bg-primary);
   border-bottom: 1px solid var(--border-color);
   padding: 1rem 0;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-[data-theme='light'] .header {
-  background: rgba(250, 250, 250, 0.9);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .header-container {
@@ -31,28 +24,6 @@
   font-weight: 700;
   color: var(--text-primary);
   text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.logo:hover {
-  transform: scale(1.05);
-}
-
-.logo:hover .logo-square-blue {
-  animation: pulse 0.6s ease;
-}
-
-.logo:hover .logo-square-red {
-  animation: pulse 0.6s ease 0.1s;
-}
-
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
 }
 
 .logo-icon {
@@ -63,19 +34,15 @@
 .logo-square {
   width: 24px;
   height: 24px;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .logo-square-blue {
-  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
-  box-shadow: 0 0 15px var(--glow-blue);
+  background: var(--accent-blue);
 }
 
 .logo-square-red {
-  background: linear-gradient(135deg, var(--accent-red), var(--accent-pink));
-  box-shadow: 0 0 15px rgba(244, 63, 94, 0.4);
+  background: var(--accent-red);
 }
 
 .logo-text {

@@ -122,26 +122,11 @@
 }
 
 .feature-icon-blue {
-  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
-  box-shadow: 0 0 15px var(--glow-blue);
-  animation: pulseIcon 2s ease-in-out infinite;
+  background: var(--accent-blue);
 }
 
 .feature-icon-red {
-  background: linear-gradient(135deg, var(--accent-red), var(--accent-pink));
-  box-shadow: 0 0 15px rgba(244, 63, 94, 0.5);
-  animation: pulseIcon 2s ease-in-out infinite 0.5s;
-}
-
-@keyframes pulseIcon {
-  0%, 100% {
-    transform: scale(1);
-    box-shadow: 0 0 15px var(--glow-blue);
-  }
-  50% {
-    transform: scale(1.1);
-    box-shadow: 0 0 25px var(--glow-blue);
-  }
+  background: var(--accent-red);
 }
 
 .feature-title {
@@ -189,15 +174,8 @@
 .dashboard-window {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
-  border-radius: 16px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-  transition: all 0.4s ease;
-}
-
-.dashboard-window:hover {
-  transform: scale(1.02);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 30px var(--glow-blue);
 }
 
 .window-controls {
@@ -247,33 +225,9 @@
 
 .chart-bar {
   flex: 1;
-  background: linear-gradient(180deg, var(--accent-blue), var(--accent-purple));
-  border-radius: 6px 6px 0 0;
+  background: var(--accent-blue);
+  border-radius: 4px 4px 0 0;
   min-height: 40px;
-  box-shadow: 0 0 15px var(--glow-blue);
-  animation: barGrow 1.5s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.chart-bar::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
-  animation: shimmer 2s infinite;
-}
-
-@keyframes barGrow {
-  from {
-    transform: scaleY(0);
-  }
-  to {
-    transform: scaleY(1);
-  }
 }
 
 .chart-bar:nth-child(2) {

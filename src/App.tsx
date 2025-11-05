@@ -3,7 +3,6 @@ import { ThemeProvider } from './contexts/ThemeContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
-import Disclaimer from './components/Disclaimer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Expertise from './pages/Expertise';
@@ -16,7 +15,6 @@ function App() {
     <ThemeProvider>
       <Router>
         <ScrollToTop />
-        <Disclaimer />
         <div className="App">
           <Header />
           <main className="main-content">

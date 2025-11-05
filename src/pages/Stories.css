@@ -83,39 +83,13 @@
 }
 
 .story-quote-blue {
-  background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(168, 85, 247, 0.15));
+  background: rgba(59, 130, 246, 0.2);
   border-left: 4px solid var(--accent-blue);
-  box-shadow: 0 4px 20px var(--glow-blue);
-  position: relative;
-}
-
-.story-quote-blue::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: linear-gradient(180deg, var(--accent-blue), var(--accent-purple));
-  box-shadow: 0 0 10px var(--glow-blue);
 }
 
 .story-quote-red {
-  background: linear-gradient(135deg, rgba(244, 63, 94, 0.15), rgba(249, 115, 22, 0.15));
+  background: rgba(239, 68, 68, 0.2);
   border-left: 4px solid var(--accent-red);
-  box-shadow: 0 4px 20px rgba(244, 63, 94, 0.3);
-  position: relative;
-}
-
-.story-quote-red::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: linear-gradient(180deg, var(--accent-red), var(--accent-orange));
-  box-shadow: 0 0 10px rgba(244, 63, 94, 0.5);
 }
 
 .story-section {
@@ -252,21 +226,10 @@
 }
 
 .story-feature-stat {
-  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-pink));
-  background-size: 200% 200%;
-  animation: gradientShift 10s ease infinite;
-  border-radius: 16px;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  border-radius: 12px;
   padding: 2rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.4s ease;
-  box-shadow: 0 8px 25px var(--glow-blue);
-}
-
-.story-feature-stat:hover {
-  transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 15px 40px var(--glow-purple);
 }
 
 .stat-number {
@@ -369,17 +332,11 @@
 }
 
 .story-cta-blue {
-  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-pink));
-  background-size: 200% 200%;
-  animation: gradientShift 10s ease infinite;
-  box-shadow: 0 10px 40px var(--glow-blue);
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
 }
 
 .story-cta-red {
-  background: linear-gradient(135deg, var(--accent-red), var(--accent-orange), var(--accent-pink));
-  background-size: 200% 200%;
-  animation: gradientShift 10s ease infinite;
-  box-shadow: 0 10px 40px rgba(244, 63, 94, 0.4);
+  background: linear-gradient(135deg, var(--accent-red), #dc2626);
 }
 
 .story-cta-quote {
@@ -398,22 +355,8 @@
 /* Final CTA */
 .stories-final-cta {
   padding: 6rem 0;
-  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-pink));
-  background-size: 200% 200%;
-  animation: gradientShift 12s ease infinite;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
   text-align: center;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 -10px 40px var(--glow-purple);
-}
-
-.stories-final-cta::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.1) 0%, transparent 70%);
-  pointer-events: none;
-  animation: rotate 30s linear infinite;
 }
 
 .final-cta-title {
